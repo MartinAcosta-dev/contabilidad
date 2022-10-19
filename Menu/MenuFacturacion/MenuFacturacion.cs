@@ -72,5 +72,10 @@ namespace Sistema.Menu.MenuFacturacion
         {
 
         }
+
+        private void productosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,8 +33,6 @@ namespace Sistema.Menu.MenuFacturacion
             DataTable dt = new DataTable(); //Esto es como una tabla virtual
             adaptador.Fill(dt);
             dataGridView1.DataSource = dt;
-
-
         }
 
         private void ABMPuntosVenta_Load(object sender, EventArgs e)

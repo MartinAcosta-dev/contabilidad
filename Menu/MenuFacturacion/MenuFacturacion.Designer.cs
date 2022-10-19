@@ -32,11 +32,14 @@
             this.aBMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.familiasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.puntosDeVentaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.nuevaFamiliaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nuevoProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.localidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tipoDeImpuestosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,9 +66,10 @@
             // 
             this.salirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.productosToolStripMenuItem1,
-            this.familiasToolStripMenuItem1,
-            this.clientesToolStripMenuItem1,
-            this.puntosDeVentaToolStripMenuItem1});
+            this.puntosDeVentaToolStripMenuItem1,
+            this.clientesToolStripMenuItem,
+            this.localidadesToolStripMenuItem,
+            this.tipoDeImpuestosToolStripMenuItem});
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(165, 20);
             this.salirToolStripMenuItem.Text = "Altas, Bajas, Modificaciones";
@@ -73,21 +77,13 @@
             // 
             // productosToolStripMenuItem1
             // 
+            this.productosToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevaFamiliaToolStripMenuItem,
+            this.nuevoProductoToolStripMenuItem});
             this.productosToolStripMenuItem1.Name = "productosToolStripMenuItem1";
             this.productosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.productosToolStripMenuItem1.Text = "Productos";
-            // 
-            // familiasToolStripMenuItem1
-            // 
-            this.familiasToolStripMenuItem1.Name = "familiasToolStripMenuItem1";
-            this.familiasToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.familiasToolStripMenuItem1.Text = "Familias";
-            // 
-            // clientesToolStripMenuItem1
-            // 
-            this.clientesToolStripMenuItem1.Name = "clientesToolStripMenuItem1";
-            this.clientesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.clientesToolStripMenuItem1.Text = "Clientes";
+            this.productosToolStripMenuItem1.Click += new System.EventHandler(this.productosToolStripMenuItem1_Click);
             // 
             // puntosDeVentaToolStripMenuItem1
             // 
@@ -110,6 +106,36 @@
             this.panel1.Size = new System.Drawing.Size(925, 406);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // nuevaFamiliaToolStripMenuItem
+            // 
+            this.nuevaFamiliaToolStripMenuItem.Name = "nuevaFamiliaToolStripMenuItem";
+            this.nuevaFamiliaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevaFamiliaToolStripMenuItem.Text = "Nueva Familia...";
+            // 
+            // nuevoProductoToolStripMenuItem
+            // 
+            this.nuevoProductoToolStripMenuItem.Name = "nuevoProductoToolStripMenuItem";
+            this.nuevoProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevoProductoToolStripMenuItem.Text = "Nuevo Producto...";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clientesToolStripMenuItem.Text = "Clientes";
+            // 
+            // localidadesToolStripMenuItem
+            // 
+            this.localidadesToolStripMenuItem.Name = "localidadesToolStripMenuItem";
+            this.localidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.localidadesToolStripMenuItem.Text = "Localidades";
+            // 
+            // tipoDeImpuestosToolStripMenuItem
+            // 
+            this.tipoDeImpuestosToolStripMenuItem.Name = "tipoDeImpuestosToolStripMenuItem";
+            this.tipoDeImpuestosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tipoDeImpuestosToolStripMenuItem.Text = "Tipo de impuestos";
             // 
             // MenuFacturacion
             // 
@@ -138,8 +164,11 @@
         private System.Windows.Forms.ToolStripMenuItem aBMToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem familiasToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem puntosDeVentaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem nuevaFamiliaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nuevoProductoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem localidadesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tipoDeImpuestosToolStripMenuItem;
     }
 }
