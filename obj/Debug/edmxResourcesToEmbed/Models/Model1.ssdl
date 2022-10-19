@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CRUDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'CRUD.dbo.Auditoria' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Auditoria">
+    <Key>
+      <PropertyRef Name="username" />
+      <PropertyRef Name="fecha" />
+      <PropertyRef Name="cambio" />
+      <PropertyRef Name="dato1" />
+      <PropertyRef Name="dato2" />
+      <PropertyRef Name="modulo" />
+    </Key>
+    <Property Name="username" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fecha" Type="smalldatetime" Nullable="false" />
+    <Property Name="cambio" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dato1" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dato2" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="modulo" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'CRUD.dbo.Documentos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Documentos">
+    <Key>
+      <PropertyRef Name="Tipo" />
+      <PropertyRef Name="Descripcion" />
+      <PropertyRef Name="Longitud" />
+    </Key>
+    <Property Name="Tipo" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Longitud" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'CRUD.dbo.Empleados' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Empleados">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="Apellido" />
+      <PropertyRef Name="TipoDoc" />
+      <PropertyRef Name="NDoc" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TipoDoc" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NDoc" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="tipouser" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="CRUDModelStoreContainer">
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Auditoria" EntityType="Self.Auditoria" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Auditoria].[username] AS [username], 
+    [Auditoria].[fecha] AS [fecha], 
+    [Auditoria].[cambio] AS [cambio], 
+    [Auditoria].[dato1] AS [dato1], 
+    [Auditoria].[dato2] AS [dato2], 
+    [Auditoria].[modulo] AS [modulo]
+    FROM [dbo].[Auditoria] AS [Auditoria]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Documentos" EntityType="Self.Documentos" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Documentos].[Tipo] AS [Tipo], 
+    [Documentos].[Descripcion] AS [Descripcion], 
+    [Documentos].[Longitud] AS [Longitud]
+    FROM [dbo].[Documentos] AS [Documentos]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Empleados" EntityType="Self.Empleados" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Empleados].[ID] AS [ID], 
+    [Empleados].[Nombre] AS [Nombre], 
+    [Empleados].[Apellido] AS [Apellido], 
+    [Empleados].[TipoDoc] AS [TipoDoc], 
+    [Empleados].[NDoc] AS [NDoc]
+    FROM [dbo].[Empleados] AS [Empleados]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

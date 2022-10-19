@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45A2F3F6-5C18-40F9-9745-D17F0C5980FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema</RootNamespace>
+    <AssemblyName>Sistema</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.11.3.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>packages\DocumentFormat.OpenXml.2.11.3\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itextsharp.xmlworker.5.5.13.3\lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SpreadsheetLight, Version=3.5.0.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <HintPath>packages\SpreadsheetLight.3.5.0\lib\netstandard2.0\SpreadsheetLight.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Drawing.Common.5.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Packaging.4.7.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CRUDDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRUDDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Menu\AñadirPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\AñadirPlan.Designer.cs">
+      <DependentUpon>AñadirPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Asientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Asientos.Designer.cs">
+      <DependentUpon>Asientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FechaListarLibroDiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FechaListarLibroDiario.Designer.cs">
+      <DependentUpon>FechaListarLibroDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\ListadoAsientosCargados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\ListadoAsientosCargados.Designer.cs">
+      <DependentUpon>ListadoAsientosCargados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMPuntosVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMPuntosVenta.Designer.cs">
+      <DependentUpon>ABMPuntosVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\MenuFacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\MenuFacturacion.Designer.cs">
+      <DependentUpon>MenuFacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuReportes.Designer.cs">
+      <DependentUpon>MenuReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuModuloContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuModuloContable.Designer.cs">
+      <DependentUpon>MenuModuloContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\RegistrarEntreFechas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\RegistrarEntreFechas.Designer.cs">
+      <DependentUpon>RegistrarEntreFechas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\ModificarPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\ModificarPlan.Designer.cs">
+      <DependentUpon>ModificarPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\PlanCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\PlanCuentas.Designer.cs">
+      <DependentUpon>PlanCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\AñadirEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\AñadirEmpresa.Designer.cs">
+      <DependentUpon>AñadirEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\LogEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\LogEmpresa.Designer.cs">
+      <DependentUpon>LogEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Mantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Mantenimiento.Designer.cs">
+      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\AñadirUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\AñadirUsuario.Designer.cs">
+      <DependentUpon>AñadirUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\EliminarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\EliminarUsuario.Designer.cs">
+      <DependentUpon>EliminarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\OpcionesGuardado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\OpcionesGuardado.Designer.cs">
+      <DependentUpon>OpcionesGuardado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\AñadirDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\AñadirDocumento.Designer.cs">
+      <DependentUpon>AñadirDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\EliminarDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\EliminarDocumento.Designer.cs">
+      <DependentUpon>EliminarDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\EliminarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\EliminarEmpleado.Designer.cs">
+      <DependentUpon>EliminarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\ModificarDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\ModificarDocumento.Designer.cs">
+      <DependentUpon>ModificarDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\ModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\ModificarUsuario.Designer.cs">
+      <DependentUpon>ModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\ModificarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\ModificarEmpleado.Designer.cs">
+      <DependentUpon>ModificarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\AñadirEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\AñadirEmpleado.Designer.cs">
+      <DependentUpon>AñadirEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Menu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Menu1.Designer.cs">
+      <DependentUpon>Menu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PracticasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PracticasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="xxxxxxx.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>xxxxxxx.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Menu\AñadirPlan.resx">
+      <DependentUpon>AñadirPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Asientos.resx">
+      <DependentUpon>Asientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FechaListarLibroDiario.resx">
+      <DependentUpon>FechaListarLibroDiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ListadoAsientosCargados.resx">
+      <DependentUpon>ListadoAsientosCargados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFacturacion\ABMPuntosVenta.resx">
+      <DependentUpon>ABMPuntosVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFacturacion\MenuFacturacion.resx">
+      <DependentUpon>MenuFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuReportes.resx">
+      <DependentUpon>MenuReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuModuloContable.resx">
+      <DependentUpon>MenuModuloContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\RegistrarEntreFechas.resx">
+      <DependentUpon>RegistrarEntreFechas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ModificarPlan.resx">
+      <DependentUpon>ModificarPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\PlanCuentas.resx">
+      <DependentUpon>PlanCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\AñadirEmpresa.resx">
+      <DependentUpon>AñadirEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\LogEmpresa.resx">
+      <DependentUpon>LogEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Mantenimiento.resx">
+      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\AñadirUsuario.resx">
+      <DependentUpon>AñadirUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\EliminarUsuario.resx">
+      <DependentUpon>EliminarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\OpcionesGuardado.resx">
+      <DependentUpon>OpcionesGuardado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\AñadirDocumento.resx">
+      <DependentUpon>AñadirDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\EliminarDocumento.resx">
+      <DependentUpon>EliminarDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\EliminarEmpleado.resx">
+      <DependentUpon>EliminarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ModificarDocumento.resx">
+      <DependentUpon>ModificarDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ModificarUsuario.resx">
+      <DependentUpon>ModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ModificarEmpleado.resx">
+      <DependentUpon>ModificarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\AñadirEmpleado.resx">
+      <DependentUpon>AñadirEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Menu1.resx">
+      <DependentUpon>Menu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="CRUDDataSet2.xsc">
+      <DependentUpon>CRUDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CRUDDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CRUDDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CRUDDataSet2.xss">
+      <DependentUpon>CRUDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PracticasDataSet.xsc">
+      <DependentUpon>PracticasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PracticasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PracticasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PracticasDataSet.xss">
+      <DependentUpon>PracticasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="xxxxxxx.xsc">
+      <DependentUpon>xxxxxxx.xsd</DependentUpon>
+    </None>
+    <None Include="xxxxxxx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>xxxxxxx.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="xxxxxxx.xss">
+      <DependentUpon>xxxxxxx.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-download-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DocumentosPlantilla.html" />
+    <None Include="Resources\BalanceGeneral.html" />
+    <None Include="Resources\LibroDiario33333.html" />
+    <None Include="Resources\mayoresDeCuentas.html" />
+    <None Include="Resources\AsientoSolo.html" />
+    <None Include="Resources\Cuentas.html" />
+    <None Include="Resources\output-onlinepngtools.png" />
+    <None Include="Resources\refresh.ico.bmp" />
+    <None Include="Resources\EmpleadosPlantilla.html" />
+    <None Include="Resources\DocumentosPlantilla.html" />
+    <Resource Include="Resources\UsuariosPlantilla.html" />
+    <None Include="Resources\iconmonstr-user-29-32.png" />
+    <None Include="Resources\iconmonstr-user-26-32.png" />
+    <None Include="Resources\iconmonstr-user-23-32.png" />
+    <None Include="Resources\icons8-logout-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

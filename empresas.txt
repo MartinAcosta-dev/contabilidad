@@ -1,0 +1,51 @@
+empleados = docentes y admin
+docente = el número de Legajo, el Apellido y Nombre, su estado civil y su fecha de nacimiento.
+docente = TIPO=  ayudante ,asistente, profesor 
+categoria(numero), 
+periodo(fecha1,fecha2)
+ 
+consultar datos por fecha 
+hacer certificado laboral a empleados(historia)
+pagos haberes, control
+
+
+tomar numero legajo
+consultar que exista
+consultar categorias bd
+elegir categoria
+asignar legajo y categoria a historia
+
+
+
+
+
+tp 5=======================================
+cuit = n ingresos brutos
+razon social
+mail
+tel
+pag web
+
+
+codigo plan / numero=id
+
+agregar--------------------
+codigo = campo editable
+ordenado por categoria = pedir cat
+tipo = sea titulo si no
+
+
+
+eliminar------------------
+
+
+modificar?
+
+
+
+create table plandecuentas(
+ID int PRIMARY KEY IDENTITY(1,1),
+codigoplan varchar(50),
+,
+); 
+    

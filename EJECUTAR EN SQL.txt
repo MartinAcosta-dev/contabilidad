@@ -1,0 +1,14 @@
+create database empresas;
+
+use empresas;
+
+create table empresas(
+	id int primary key identity(1,1),
+	nombre varchar(100),
+	razonsocial varchar(100),
+	localizacion varchar(100),
+	tiporesponsable varchar(100),
+	cuit varchar(50),
+	fechaIni varchar(20),
+	fechaCierre varchar(20)
+)

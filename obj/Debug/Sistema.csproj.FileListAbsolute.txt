@@ -1,0 +1,450 @@
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\Sistema.exe.config
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\Sistema.exe
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\Sistema.pdb
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.exe
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.pdb
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\EntityFramework.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\EntityFramework.xml
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.AñadirEmpleado.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.ModificarEmpleado.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.EliminarEmpleado.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.AñadirDocumento.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.ModificarDocumento.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.EliminarDocumento.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Login.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.AñadirUsuario.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.EliminarUsuario.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.ModificarUsuario.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\itextsharp.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\itextsharp.xml
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.OpcionesGuardado.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.g.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\SpreadsheetLight.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\System.Drawing.Common.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\System.IO.Packaging.dll
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\SpreadsheetLight.xml
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\System.IO.Packaging.xml
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\CRUD.mdf
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\bin\Debug\CRUD_log.ldf
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Menu.resources
+C:\Users\Frankles\Documents\PROYECTOS DESARROLLO\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Mantenimiento.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\Sistema.exe.config
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\Sistema.exe
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\Sistema.pdb
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\EntityFramework.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\itextsharp.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\SpreadsheetLight.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\System.Drawing.Common.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\System.IO.Packaging.dll
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\EntityFramework.xml
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\itextsharp.xml
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\SpreadsheetLight.xml
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\bin\Debug\System.IO.Packaging.xml
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.g.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Mantenimiento.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.AñadirUsuario.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.EliminarUsuario.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.OpcionesGuardado.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Login.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.AñadirDocumento.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.EliminarDocumento.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.EliminarEmpleado.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.ModificarDocumento.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.ModificarUsuario.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.ModificarEmpleado.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.AñadirEmpleado.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Menu.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.exe
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.pdb
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.LogEmpresa.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.AñadirEmpresa.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.AñadirPlan.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.Asientos.resources
+C:\Users\Frankles\Desktop\Practica Profesional\Sistema\Sistema\obj\Debug\Sistema.PlanCuentas.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.g.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.AñadirPlan.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.Asientos.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.ModificarPlan.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.PlanCuentas.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.AñadirEmpresa.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.LogEmpresa.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.Mantenimiento.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.AñadirUsuario.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.EliminarUsuario.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.OpcionesGuardado.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.Login.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.AñadirDocumento.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.EliminarDocumento.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.EliminarEmpleado.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.ModificarDocumento.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.ModificarUsuario.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.ModificarEmpleado.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.AñadirEmpleado.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.Menu.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.exe
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.pdb
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\Sistema.exe.config
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\Sistema.exe
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\Sistema.pdb
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\EntityFramework.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\itextsharp.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\SpreadsheetLight.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\System.Drawing.Common.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\System.IO.Packaging.dll
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\EntityFramework.xml
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\itextsharp.xml
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\SpreadsheetLight.xml
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\bin\Debug\System.IO.Packaging.xml
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.MenuPrincipal.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.MenuModuloContable.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.RegistrarEntreFechas.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.MenuReportes.resources
+C:\Users\MartyMcFly\Desktop\Version 4 Contable\obj\Debug\Sistema.FechaListarLibroDiario.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\Sistema.exe.config
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\Sistema.exe
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\Sistema.pdb
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\EntityFramework.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\itextsharp.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\SpreadsheetLight.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\System.Drawing.Common.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\System.IO.Packaging.dll
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\EntityFramework.xml
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\itextsharp.xml
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\SpreadsheetLight.xml
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\bin\Debug\System.IO.Packaging.xml
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.g.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.AñadirPlan.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.Asientos.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.FechaListarLibroDiario.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.MenuReportes.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.MenuModuloContable.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.RegistrarEntreFechas.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.MenuPrincipal.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.ModificarPlan.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.PlanCuentas.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.AñadirEmpresa.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.LogEmpresa.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.Mantenimiento.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.AñadirUsuario.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.EliminarUsuario.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.OpcionesGuardado.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.Login.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.AñadirDocumento.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.EliminarDocumento.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.EliminarEmpleado.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.ModificarDocumento.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.ModificarUsuario.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.ModificarEmpleado.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.AñadirEmpleado.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.Menu.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.exe
+C:\Users\Frankles\Desktop\Ultimo ultimo ultimo\obj\Debug\Sistema.pdb
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\Sistema.exe.config
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\Sistema.exe
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\Sistema.pdb
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\EntityFramework.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\itextsharp.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\SpreadsheetLight.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\System.Drawing.Common.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\System.IO.Packaging.dll
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\EntityFramework.xml
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\itextsharp.xml
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\SpreadsheetLight.xml
+C:\Users\Frankles\Desktop\Sistema\bin\Debug\System.IO.Packaging.xml
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.g.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.AñadirPlan.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.Asientos.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.FechaListarLibroDiario.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.MenuReportes.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.MenuModuloContable.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.RegistrarEntreFechas.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.MenuPrincipal.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.ModificarPlan.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.PlanCuentas.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.AñadirEmpresa.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.LogEmpresa.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.Mantenimiento.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.AñadirUsuario.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.EliminarUsuario.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.OpcionesGuardado.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.Login.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.AñadirDocumento.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.EliminarDocumento.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.EliminarEmpleado.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.ModificarDocumento.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.ModificarUsuario.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.ModificarEmpleado.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.AñadirEmpleado.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.Menu.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.exe
+C:\Users\Frankles\Desktop\Sistema\obj\Debug\Sistema.pdb
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.g.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirPlan.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.Asientos.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.FechaListarLibroDiario.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.ListadoAsientosCargados.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuReportes.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuModuloContable.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.RegistrarEntreFechas.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuPrincipal.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarPlan.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.PlanCuentas.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirEmpresa.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.LogEmpresa.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.Mantenimiento.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirUsuario.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarUsuario.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.OpcionesGuardado.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.Login.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirDocumento.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarDocumento.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarEmpleado.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarDocumento.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarUsuario.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarEmpleado.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirEmpleado.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.Menu.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.exe
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.pdb
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.AssemblyReference.cache
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.g.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirPlan.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.Asientos.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.FechaListarLibroDiario.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.ListadoAsientosCargados.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuReportes.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuModuloContable.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.RegistrarEntreFechas.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuPrincipal.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarPlan.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.PlanCuentas.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirEmpresa.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.LogEmpresa.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.Mantenimiento.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirUsuario.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarUsuario.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.OpcionesGuardado.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.Login.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirDocumento.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarDocumento.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarEmpleado.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarDocumento.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarUsuario.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarEmpleado.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirEmpleado.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.Menu.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.Properties.Resources.resources
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.GenerateResource.cache
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.exe
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.pdb
+D:\ULTIMO MIERCOLES\bin\Debug\Sistema.exe.config
+D:\ULTIMO MIERCOLES\bin\Debug\Sistema.exe
+D:\ULTIMO MIERCOLES\bin\Debug\Sistema.pdb
+D:\ULTIMO MIERCOLES\bin\Debug\BouncyCastle.Crypto.dll
+D:\ULTIMO MIERCOLES\bin\Debug\DocumentFormat.OpenXml.dll
+D:\ULTIMO MIERCOLES\bin\Debug\EntityFramework.dll
+D:\ULTIMO MIERCOLES\bin\Debug\EntityFramework.SqlServer.dll
+D:\ULTIMO MIERCOLES\bin\Debug\itextsharp.dll
+D:\ULTIMO MIERCOLES\bin\Debug\itextsharp.xmlworker.dll
+D:\ULTIMO MIERCOLES\bin\Debug\SpreadsheetLight.dll
+D:\ULTIMO MIERCOLES\bin\Debug\System.Drawing.Common.dll
+D:\ULTIMO MIERCOLES\bin\Debug\System.IO.Packaging.dll
+D:\ULTIMO MIERCOLES\bin\Debug\DocumentFormat.OpenXml.xml
+D:\ULTIMO MIERCOLES\bin\Debug\EntityFramework.xml
+D:\ULTIMO MIERCOLES\bin\Debug\EntityFramework.SqlServer.xml
+D:\ULTIMO MIERCOLES\bin\Debug\itextsharp.xml
+D:\ULTIMO MIERCOLES\bin\Debug\SpreadsheetLight.xml
+D:\ULTIMO MIERCOLES\bin\Debug\System.IO.Packaging.xml
+D:\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\Sistema.exe.config
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\Sistema.exe
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\Sistema.pdb
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\EntityFramework.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\itextsharp.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\SpreadsheetLight.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\System.Drawing.Common.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\System.IO.Packaging.dll
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\EntityFramework.xml
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\itextsharp.xml
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\SpreadsheetLight.xml
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\bin\Debug\System.IO.Packaging.xml
+C:\Users\Frankles\Desktop\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.g.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirPlan.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.Asientos.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.FechaListarLibroDiario.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.ListadoAsientosCargados.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuReportes.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuModuloContable.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.RegistrarEntreFechas.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.MenuPrincipal.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarPlan.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.PlanCuentas.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirEmpresa.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.LogEmpresa.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.Mantenimiento.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirUsuario.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarUsuario.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.OpcionesGuardado.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.Login.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirDocumento.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarDocumento.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.EliminarEmpleado.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarDocumento.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarUsuario.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.ModificarEmpleado.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.AñadirEmpleado.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.Menu.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.exe
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.pdb
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\Sistema.exe.config
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\Sistema.exe
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\Sistema.pdb
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\EntityFramework.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\itextsharp.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\SpreadsheetLight.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\System.Drawing.Common.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\System.IO.Packaging.dll
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\EntityFramework.xml
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\itextsharp.xml
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\SpreadsheetLight.xml
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\bin\Debug\System.IO.Packaging.xml
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\MartyMcFly\Desktop\ULTIMO MIERCOLES-20221004T141845Z-001\ULTIMO MIERCOLES\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\Sistema.exe.config
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\Sistema.exe
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\Sistema.pdb
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\EntityFramework.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\itextsharp.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\SpreadsheetLight.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\System.Drawing.Common.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\System.IO.Packaging.dll
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\EntityFramework.xml
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\itextsharp.xml
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\SpreadsheetLight.xml
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\bin\Debug\System.IO.Packaging.xml
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.g.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.AñadirPlan.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Asientos.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.FechaListarLibroDiario.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.ListadoAsientosCargados.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.MenuReportes.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.MenuModuloContable.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.RegistrarEntreFechas.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.MenuPrincipal.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.ModificarPlan.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.PlanCuentas.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.AñadirEmpresa.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.LogEmpresa.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Mantenimiento.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.AñadirUsuario.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.EliminarUsuario.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.OpcionesGuardado.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Login.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.AñadirDocumento.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.EliminarDocumento.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.EliminarEmpleado.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.ModificarDocumento.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.ModificarUsuario.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.ModificarEmpleado.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.AñadirEmpleado.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.csproj.CopyComplete
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.exe
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.pdb
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu.MenuFacturacion.MenuFacturacion.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu1.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu.MenuFacturacion.ABMPuntosVenta.resources

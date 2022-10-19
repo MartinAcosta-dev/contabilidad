@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Document</title>
+
+    <style>
+        body{
+            border: 1px solid black;
+            padding: 50px 50px;
+        }
+
+        .container{
+            text-align: center;
+        }
+
+
+        .datosCabecera td{
+            width: 250px;
+        }
+
+        .datos td{
+            width: 250px;
+	    font-size: 11px;
+        }
+
+        .cabeceraCuenta td{
+            
+            width: 450px;
+        }
+
+        .nuevoAsiento{
+            border: 1px solid gray;
+        }
+    
+    </style>
+</head>
+<body>
+   
+    <div>Razon Social: @NombreEmpresa</div>
+    <div>Localizacion: @Localizacion</div>
+    <div class="container">
+        <h1>Mayores de Cuentas</h1>
+
+        <div>Desde <b>@fechaIni</b> hasta <b>@fechaCierre</b> </div>
+        <br/>
+        <hr/>
+
+        <table class="datosCabecera" align="center">
+            <tr>
+                <td>Asto.</td>
+                <td>Renglon</td>
+                <td>Fecha Cont.</td>
+                <td>Comp.</td>
+                <td>Leyenda</td>
+                <td>Débitos</td>
+                <td>Créditos</td>
+                <td>Saldo</td>
+            </tr>        
+        </table>
+	<br/>
+
+        @TABLAS
+
+    </div>
+
+    
+
+    
+</body>
+</html>
