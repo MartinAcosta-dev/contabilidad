@@ -168,6 +168,16 @@ namespace Sistema
             command = new SqlCommand(query, conexion2);
             command.ExecuteNonQuery();
 
+            //Tabla productos
+            query = "create table productos(id int PRIMARY KEY identity (1,1), nombre varchar(100), codFamilia int, cantidad int, precioUnitario float, codImpuesto int, cantImpuestosInternos int); ";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+            //Tabla Tipos de Impuesto
+            query = "create table productos(id int PRIMARY KEY identity (1,1), descripcion varchar(100), porcentaje varchar(10)); ";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
             conexion2.Close();
         }
 

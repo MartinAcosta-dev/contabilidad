@@ -115,18 +115,23 @@ namespace Sistema.Menu.MenuFacturacion
         private void button2_Click(object sender, EventArgs e)
         {
             String numero = textBox2.Text;
-            int nNumero = Convert.ToInt32(numero);
 
-            if( puntoDeVentaExiste(nNumero) == true)
+            if(numero != "")
             {
-                EliminarPuntoDeVenta(nNumero);
-                listarPuntosDeVenta();
-                textBox2.Text = "";
+                int nNumero = Convert.ToInt32(numero);
+
+                if (puntoDeVentaExiste(nNumero) == true)
+                {
+                    EliminarPuntoDeVenta(nNumero);
+                    listarPuntosDeVenta();
+                    textBox2.Text = "";
+                }
+                else
+                {
+                    MessageBox.Show("Este punto de venta no existe.");
+                }
             }
-            else
-            {
-                MessageBox.Show("Este punto de venta no existe.");
-            }
+            
         }
 
         public void ModificarPuntoDeVenta(int numero, int nuevoNumero)
@@ -148,20 +153,29 @@ namespace Sistema.Menu.MenuFacturacion
         private void button3_Click(object sender, EventArgs e)
         {
             String sNumero = dataGridView1.SelectedCells[1].Value.ToString();
-            int numero = Convert.ToInt32(sNumero);
-            String sNuevoNumero = textBox2.Text;
-            int nuevoNumero = Convert.ToInt32(sNuevoNumero);
+            
+            if (sNumero != "")
+            {
+                int numero = Convert.ToInt32(sNumero);
+                String sNuevoNumero = textBox2.Text;
 
-            if (puntoDeVentaExiste(nuevoNumero) == true)
-            {
-                MessageBox.Show("El punto de venta ya existe");
+                if (sNuevoNumero != "")
+                {
+                    int nuevoNumero = Convert.ToInt32(sNuevoNumero);
+
+                    if (puntoDeVentaExiste(nuevoNumero) == true)
+                    {
+                        MessageBox.Show("El punto de venta ya existe");
+                    }
+                    else
+                    {
+                        ModificarPuntoDeVenta(numero, nuevoNumero);
+                        listarPuntosDeVenta();
+                        MessageBox.Show("Se ha modificado el registro.");
+                    }
+                }
             }
-            else
-            {
-                ModificarPuntoDeVenta(numero, nuevoNumero);
-                listarPuntosDeVenta();
-                MessageBox.Show("Se ha modificado el registro.");
-            }
+
         }
     }
 }

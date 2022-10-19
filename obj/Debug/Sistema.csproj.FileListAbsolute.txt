@@ -448,3 +448,6 @@ C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.pdb
 C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu.MenuFacturacion.MenuFacturacion.resources
 C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu1.resources
 C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu.MenuFacturacion.ABMPuntosVenta.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu.MenuFacturacion.ABMProductos.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu.MenuFacturacion.ABMTiposDeImpuesto.resources
+C:\Users\MartyMcFly\Desktop\4-10-22 Presentar ultimo\obj\Debug\Sistema.Menu.MenuFacturacion.ABMVentas.resources

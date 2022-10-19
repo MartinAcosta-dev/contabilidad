@@ -134,11 +134,29 @@
     <Compile Include="Menu\ListadoAsientosCargados.Designer.cs">
       <DependentUpon>ListadoAsientosCargados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMProductos.Designer.cs">
+      <DependentUpon>ABMProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu\MenuFacturacion\ABMPuntosVenta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu\MenuFacturacion\ABMPuntosVenta.Designer.cs">
       <DependentUpon>ABMPuntosVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMTiposDeImpuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMTiposDeImpuesto.Designer.cs">
+      <DependentUpon>ABMTiposDeImpuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMVentas.Designer.cs">
+      <DependentUpon>ABMVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu\MenuFacturacion\MenuFacturacion.cs">
       <SubType>Form</SubType>
@@ -301,8 +319,17 @@
     <EmbeddedResource Include="Menu\ListadoAsientosCargados.resx">
       <DependentUpon>ListadoAsientosCargados.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFacturacion\ABMProductos.resx">
+      <DependentUpon>ABMProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu\MenuFacturacion\ABMPuntosVenta.resx">
       <DependentUpon>ABMPuntosVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFacturacion\ABMTiposDeImpuesto.resx">
+      <DependentUpon>ABMTiposDeImpuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFacturacion\ABMVentas.resx">
+      <DependentUpon>ABMVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\MenuFacturacion\MenuFacturacion.resx">
       <DependentUpon>MenuFacturacion.cs</DependentUpon>

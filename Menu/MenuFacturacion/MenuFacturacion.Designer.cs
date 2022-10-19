@@ -32,14 +32,14 @@
             this.aBMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.puntosDeVentaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.nuevaFamiliaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.puntosDeVentaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.localidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipoDeImpuestosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,28 +85,6 @@
             this.productosToolStripMenuItem1.Text = "Productos";
             this.productosToolStripMenuItem1.Click += new System.EventHandler(this.productosToolStripMenuItem1_Click);
             // 
-            // puntosDeVentaToolStripMenuItem1
-            // 
-            this.puntosDeVentaToolStripMenuItem1.Name = "puntosDeVentaToolStripMenuItem1";
-            this.puntosDeVentaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.puntosDeVentaToolStripMenuItem1.Text = "Puntos de venta";
-            this.puntosDeVentaToolStripMenuItem1.Click += new System.EventHandler(this.puntosDeVentaToolStripMenuItem1_Click);
-            // 
-            // salirToolStripMenuItem1
-            // 
-            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(41, 20);
-            this.salirToolStripMenuItem1.Text = "Salir";
-            this.salirToolStripMenuItem1.Click += new System.EventHandler(this.salirToolStripMenuItem1_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(0, 27);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(925, 406);
-            this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
             // nuevaFamiliaToolStripMenuItem
             // 
             this.nuevaFamiliaToolStripMenuItem.Name = "nuevaFamiliaToolStripMenuItem";
@@ -118,6 +96,14 @@
             this.nuevoProductoToolStripMenuItem.Name = "nuevoProductoToolStripMenuItem";
             this.nuevoProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nuevoProductoToolStripMenuItem.Text = "Nuevo Producto...";
+            this.nuevoProductoToolStripMenuItem.Click += new System.EventHandler(this.nuevoProductoToolStripMenuItem_Click);
+            // 
+            // puntosDeVentaToolStripMenuItem1
+            // 
+            this.puntosDeVentaToolStripMenuItem1.Name = "puntosDeVentaToolStripMenuItem1";
+            this.puntosDeVentaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.puntosDeVentaToolStripMenuItem1.Text = "Puntos de venta";
+            this.puntosDeVentaToolStripMenuItem1.Click += new System.EventHandler(this.puntosDeVentaToolStripMenuItem1_Click);
             // 
             // clientesToolStripMenuItem
             // 
@@ -136,6 +122,22 @@
             this.tipoDeImpuestosToolStripMenuItem.Name = "tipoDeImpuestosToolStripMenuItem";
             this.tipoDeImpuestosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tipoDeImpuestosToolStripMenuItem.Text = "Tipo de impuestos";
+            this.tipoDeImpuestosToolStripMenuItem.Click += new System.EventHandler(this.tipoDeImpuestosToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem1
+            // 
+            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
+            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem1.Text = "Salir";
+            this.salirToolStripMenuItem1.Click += new System.EventHandler(this.salirToolStripMenuItem1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 27);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(925, 406);
+            this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // MenuFacturacion
             // 
@@ -149,6 +151,7 @@
             this.Name = "MenuFacturacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Facturacion";
+            this.Load += new System.EventHandler(this.MenuFacturacion_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

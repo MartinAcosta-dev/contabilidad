@@ -24,7 +24,8 @@ namespace Sistema.Menu.MenuFacturacion
 
         private void aBMToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            ABMVentas formVentas = new ABMVentas();
+            AbrirFormHijo(formVentas);
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -76,6 +77,24 @@ namespace Sistema.Menu.MenuFacturacion
         private void productosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void nuevoProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMProductos formProductos = new ABMProductos();
+            AbrirFormHijo(formProductos);
+        }
+
+        private void tipoDeImpuestosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMTiposDeImpuesto formImpuestos = new ABMTiposDeImpuesto();
+            AbrirFormHijo(formImpuestos);
+        }
+
+        private void MenuFacturacion_Load(object sender, EventArgs e)
+        {
+            ABMVentas formVentas = new ABMVentas();
+            AbrirFormHijo(formVentas);
         }
     }
 }
