@@ -13,6 +13,8 @@ namespace Sistema
     internal class Global //CONEXION GLOBAL A LA BASE DE DATOS
     {
         //Primera conexion para la tabla de empresas
+
+        //Cambiar conexion en caso de agregar empresa
         static public SqlConnection conexion = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=empresas; integrated security=true;MultipleActiveResultSets=True");
         static public String[] UserLogged = new String[5]; //Usuario loggeado
 
@@ -22,10 +24,10 @@ namespace Sistema
         public static SqlConnection getConexion2(String nombreEmpresa)
         {
             // Franco (falta cambiar codigo de server)
-            // SqlConnection resultado = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
-
+            // SqlConnection resultado = new SqlConnection(@"server=DESKTOP-8VUNRM4\SQLEXPRESS;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
+            //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
             // Martin
-            SqlConnection resultado = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
+           // SqlConnection resultado = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
 
 
             return resultado;
