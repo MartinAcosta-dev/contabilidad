@@ -23,11 +23,12 @@ namespace Sistema
     
         public static SqlConnection getConexion2(String nombreEmpresa)
         {
-            // Franco (falta cambiar codigo de server)
+            // Franco
             // SqlConnection resultado = new SqlConnection(@"server=DESKTOP-8VUNRM4\SQLEXPRESS;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
-            //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            // Martin
-           // SqlConnection resultado = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
+           
+
+           // Martin
+            SqlConnection resultado = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
 
 
             return resultado;

@@ -18,6 +18,18 @@ namespace Sistema.Menu.MenuFacturacion
             InitializeComponent();
         }
 
+        public void corregirPreciosUnitarios()
+        {
+            for(int i = 0; i < dataGridView1.RowCount; i++)
+            {
+                if (dataGridView1.Rows[i].Cells[4].Value != null)
+                {
+                    dataGridView1.Rows[i].Cells[4].Value = Global.getImporteString(float.Parse(dataGridView1.Rows[i].Cells[4].Value.ToString()));
+
+                }
+            }
+        }
+
         public void listarProductos()
         {
             SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
@@ -29,6 +41,9 @@ namespace Sistema.Menu.MenuFacturacion
 
             dataGridView1.Columns[0].Width = 40;
             dataGridView1.Columns[6].Width = dataGridView1.Columns[6].Width + 20;
+
+            corregirPreciosUnitarios();
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -171,21 +186,21 @@ namespace Sistema.Menu.MenuFacturacion
             return resultado;
         }
 
-        public void AltaProducto(String nombre, int cant, float precioUnitario, int codFamilia , int codImpuesto)
+        public void AltaProducto(String nombre, int cant, float precioUnitario, int codFamilia , int codImpuesto, int cantImpInternos)
         {
             SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
             conexion.Open();
-            String query = "insert into productos values (@nombre, @cant, @precioUnitario, @codFamilia, @codImpuesto)";
+            String query = "insert into productos values (@nombre, @codFamilia, @cant , @precioUnitario, @codImpuesto, @cantImpInternos)";
             SqlCommand command = new SqlCommand(query, conexion);
+
             command.Parameters.AddWithValue("@nombre", nombre);
             command.Parameters.AddWithValue("@cant", cant);
             command.Parameters.AddWithValue("@precioUnitario", precioUnitario);
             command.Parameters.AddWithValue("@codFamilia", codFamilia);
             command.Parameters.AddWithValue("@codImpuesto", codImpuesto);
-
+            command.Parameters.AddWithValue("@cantImpInternos", cantImpInternos);
 
             command.ExecuteNonQuery();
-            MessageBox.Show("Se ha dado de alta un producto.");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -209,7 +224,8 @@ namespace Sistema.Menu.MenuFacturacion
                     int codFamilia = GetCodFamilia(comboBox1.Text);
                     int codImpuesto = GetCodImpuesto(comboBox2.Text);
 
-                    AltaProducto(nombre, cant, precioUnitario, codFamilia, codImpuesto);
+                    AltaProducto(nombre, cant, float.Parse(Global.getImporteString(precioUnitario)), codFamilia, codImpuesto, 0);
+                    MessageBox.Show("Se ha dado de alta un producto.");
 
                     textBox1.Text = "";
                     textBox3.Text = "";
@@ -218,6 +234,80 @@ namespace Sistema.Menu.MenuFacturacion
                     comboBox2.Text = "";
                     listarProductos();
                 }
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            String id = dataGridView1.SelectedCells[0].Value.ToString();
+            String nombre = dataGridView1.SelectedCells[1].Value.ToString();
+            String codFamilia = dataGridView1.SelectedCells[2].Value.ToString();
+            String cantidad = dataGridView1.SelectedCells[3].Value.ToString();
+            String precioUnitario = dataGridView1.SelectedCells[4].Value.ToString();
+            String codImpuesto = dataGridView1.SelectedCells[5].Value.ToString();
+            String cantImpuestosInternos = dataGridView1.SelectedCells[6].Value.ToString();
+            Boolean bEncontrado = false;
+            Boolean bCorte = false;
+            String familia;
+
+            if (id != "")
+            {
+                textBox1.Text = nombre;
+                textBox3.Text = cantidad;
+                textBox4.Text = precioUnitario;
+
+                int i = 0;
+
+                while ((bEncontrado == false) && (bCorte == false))
+                {
+                    familia = GetCodFamilia(comboBox1.Items[i].ToString()).ToString();
+
+                    if (familia == codFamilia)
+                    {
+                        comboBox1.Text = comboBox1.Items[i].ToString();
+                        bEncontrado = true;
+                    }
+                    else
+                    {
+                        i++;
+                    }
+
+                    if (i == comboBox1.Items.Count - 2) // - 2 porque hay una fila en blanco no se por qué
+                    {
+                        bCorte = true;
+                    }
+
+                }
+            }
+
+
+
+        }
+
+        public void EliminarProducto(int id)
+        {
+            SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
+            conexion.Open();
+            String query = "delete from productos where id = @id";
+            SqlCommand command = new SqlCommand(query, conexion);
+            command.Parameters.AddWithValue("@id", id);
+            command.ExecuteNonQuery();
+
+            conexion.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+
+            var confirmResult = MessageBox.Show("¿Realmente desea eliminar este producto?", "Confirm", MessageBoxButtons.YesNo);
+
+            if (confirmResult == DialogResult.Yes)
+            {
+                EliminarProducto(id);
+                MessageBox.Show("Se ha eliminado el producto con id: " + id.ToString());
+                listarProductos();
+
             }
         }
     }

@@ -123,12 +123,20 @@ namespace Sistema.Menu.MenuFacturacion
             int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
             String descripcion = textBox1.Text;
             String porcentaje = Global.getImporteString(float.Parse(numericUpDown1.Value.ToString()));
-            modificarTipoDeImpuesto(id, descripcion, porcentaje);
-            MessageBox.Show("Se ha modificado el tipo de impuesto");
+            if (descripcion == "" || porcentaje == "")
+            {
+                MessageBox.Show("Complete los campos a modificar");
+            }
+            else
+            {
+                modificarTipoDeImpuesto(id, descripcion, porcentaje);
+                MessageBox.Show("Se ha modificado el tipo de impuesto");
 
-            textBox1.Text = "";
-            numericUpDown1.Value = decimal.Parse("0.00");
-            listarTiposDeImpuesto();
+                textBox1.Text = "";
+                numericUpDown1.Value = decimal.Parse("0.00");
+                listarTiposDeImpuesto();
+            }
+
         }
     }
 }
