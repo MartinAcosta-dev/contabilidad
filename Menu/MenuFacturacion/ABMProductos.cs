@@ -239,6 +239,7 @@ namespace Sistema.Menu.MenuFacturacion
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+
             String id = dataGridView1.SelectedCells[0].Value.ToString();
             String nombre = dataGridView1.SelectedCells[1].Value.ToString();
             String codFamilia = dataGridView1.SelectedCells[2].Value.ToString();
@@ -308,6 +309,65 @@ namespace Sistema.Menu.MenuFacturacion
                 MessageBox.Show("Se ha eliminado el producto con id: " + id.ToString());
                 listarProductos();
 
+            }
+        }
+
+        public void ModificarProducto(int id, String nombre, int codFamilia, int cant, float precioUnitario, int codImpuesto, int cantImpuestosInternos)
+        {
+            SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
+            conexion.Open();
+            String query = "update productos set nombre = @nombre, codFamilia = @codFamilia, cantidad = @cantidad, precioUnitario = @precioUnitario, codImpuesto = @codImpuesto, cantImpuestosInternos = @cantImpuestosInternos where id = @id";
+            SqlCommand command = new SqlCommand(query, conexion);
+            command.Parameters.AddWithValue("@id", id);
+            command.Parameters.AddWithValue("@nombre", nombre);
+            command.Parameters.AddWithValue("@codFamilia", codFamilia);
+            command.Parameters.AddWithValue("@cantidad", cant);
+            command.Parameters.AddWithValue("@precioUnitario", precioUnitario);
+            command.Parameters.AddWithValue("@codImpuesto", codImpuesto);
+            command.Parameters.AddWithValue("@cantImpuestosInternos", cantImpuestosInternos);
+
+            command.ExecuteNonQuery();
+
+            conexion.Close();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+
+            MessageBox.Show(id.ToString());
+
+            if (id.ToString() != "")
+            {
+               
+                String sNuevoNombre = textBox1.Text;
+                int nuevaCantidad;
+                float nuevoPrecioUnitario;
+
+                if(int.TryParse(textBox3.Text , out nuevaCantidad) && float.TryParse(textBox4.Text, out nuevoPrecioUnitario) ){
+                    if(comboBox1.Text != "" && comboBox2.Text != "")
+                    {
+                        String sNuevoCodFamilia = comboBox1.Text;
+                        String sNuevoCodImpuesto = comboBox2.Text;
+
+                        int nuevoCodFamilia = GetCodFamilia(sNuevoCodFamilia);
+                        int nuevoCodImpuesto = GetCodImpuesto(sNuevoCodImpuesto);
+
+                        //AHORA MODIFICAR
+
+                        ModificarProducto(id, sNuevoNombre, nuevoCodFamilia, nuevaCantidad, nuevoPrecioUnitario, nuevoCodImpuesto, 0);
+                        MessageBox.Show("Se ha modificado el producto");
+                        listarProductos();
+                        textBox1.Text = "";
+                        textBox3.Text = "";
+                        textBox4.Text = "";
+                        comboBox1.Text = "";
+                        comboBox2.Text = "";
+                    }
+                }
+
+              
             }
         }
     }
