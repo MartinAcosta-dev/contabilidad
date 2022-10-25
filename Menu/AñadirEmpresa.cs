@@ -183,6 +183,11 @@ namespace Sistema
             command = new SqlCommand(query, conexion2);
             command.ExecuteNonQuery();
 
+            //Tabla productos
+           // query = "create table condicionesComerciales( id int primary key identity(1,1), descripcion varchar(100));";
+            //command = new SqlCommand(query, conexion2);
+            //command.ExecuteNonQuery();
+
             conexion2.Close();
         }
 

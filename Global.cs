@@ -14,8 +14,10 @@ namespace Sistema
     {
         //Primera conexion para la tabla de empresas
 
+        //F
+        static public SqlConnection conexion = new SqlConnection(@"server=DESKTOP-8VUNRM4\SQLEXPRESS;database=empresas; integrated security=true;MultipleActiveResultSets=True");
         //Cambiar conexion en caso de agregar empresa
-        static public SqlConnection conexion = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=empresas; integrated security=true;MultipleActiveResultSets=True");
+        //static public SqlConnection conexion = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=empresas; integrated security=true;MultipleActiveResultSets=True");
         static public String[] UserLogged = new String[5]; //Usuario loggeado
 
         //Segunda conexion para la empresa que entre
@@ -24,11 +26,11 @@ namespace Sistema
         public static SqlConnection getConexion2(String nombreEmpresa)
         {
             // Franco
-            // SqlConnection resultado = new SqlConnection(@"server=DESKTOP-8VUNRM4\SQLEXPRESS;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
+             SqlConnection resultado = new SqlConnection(@"server=DESKTOP-8VUNRM4\SQLEXPRESS;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
            
 
            // Martin
-            SqlConnection resultado = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
+            //SqlConnection resultado = new SqlConnection(@"server=DESKTOP-LNJ6R1G;database=" + nombreEmpresa + "; integrated security=true;MultipleActiveResultSets=True");
 
 
             return resultado;
