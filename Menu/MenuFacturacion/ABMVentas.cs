@@ -22,7 +22,17 @@ namespace Sistema.Menu.MenuFacturacion
         {
             SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
             conexion.Open();
-            String query = "Select * from productos";
+            String query = "select * from productos";
+            SqlCommand command = new SqlCommand(query, conexion);
+            SqlDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                String id = reader["id"].ToString();
+                String nombre = reader["nombre"].ToString();
+                comboBox1.Items.Add(id + " - " + nombre);
+            }
+
 
             conexion.Close();
         }
@@ -104,10 +114,36 @@ namespace Sistema.Menu.MenuFacturacion
             labelTotalProductoCant.Text = "Hola";
         }
 
+        public void listarClientes()
+        {
+
+        }
+
+        public void listarCondicionesComerciales()
+        {
+            SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
+            conexion.Open();
+            String query = "select * from condicionesComerciales";
+            SqlCommand command = new SqlCommand(query, conexion);
+            SqlDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                String id = reader["id"].ToString();
+                String descripcion = reader["descripcion"].ToString();
+
+                comboBox5.Items.Add(id + " - " + descripcion);
+
+            }
+
+            conexion.Close();
+        }
 
         private void ABMVentas_Load(object sender, EventArgs e)
         {
             listarProductos();
+            listarClientes();
+            listarCondicionesComerciales();
         }
     }
 }

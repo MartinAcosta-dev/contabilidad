@@ -27,6 +27,9 @@ namespace Sistema.Menu.MenuFacturacion
             adaptador.Fill(dt);
             dataGridView1.DataSource = dt;
 
+            dataGridView1.Columns[0].Width = 500;
+            dataGridView1.Columns[1].Width = 500;
+
         }
 
         public void AltaTipoDeImpuesto(String descripcion, String porcentaje)
@@ -136,6 +139,11 @@ namespace Sistema.Menu.MenuFacturacion
                 numericUpDown1.Value = decimal.Parse("0.00");
                 listarTiposDeImpuesto();
             }
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
 
         }
     }

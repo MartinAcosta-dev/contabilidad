@@ -96,5 +96,11 @@ namespace Sistema.Menu.MenuFacturacion
             ABMVentas formVentas = new ABMVentas();
             AbrirFormHijo(formVentas);
         }
+
+        private void condicionesComercialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMCondicionesComerciales formCondiciones = new ABMCondicionesComerciales();
+            AbrirFormHijo(formCondiciones);
+        }
     }
 }

@@ -508,3 +508,4 @@ C:\Users\MartyMcFly\Desktop\contabilidadTremendo\obj\Debug\Sistema.csproj.CoreCo
 C:\Users\MartyMcFly\Desktop\contabilidadTremendo\obj\Debug\Sistema.csproj.CopyComplete
 C:\Users\MartyMcFly\Desktop\contabilidadTremendo\obj\Debug\Sistema.exe
 C:\Users\MartyMcFly\Desktop\contabilidadTremendo\obj\Debug\Sistema.pdb
+C:\Users\MartyMcFly\Desktop\contabilidadTremendo\obj\Debug\Sistema.Menu.MenuFacturacion.ABMCondicionesComerciales.resources

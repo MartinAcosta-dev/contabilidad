@@ -279,9 +279,35 @@ namespace Sistema.Menu.MenuFacturacion
                     }
 
                 }
+
+                //Combo 2
+                int j = 0;
+
+                bEncontrado = false;
+                bCorte = false;
+
+                while ((bEncontrado == false) && (bCorte == false))
+                {
+                    familia = GetCodImpuesto(comboBox2.Items[j].ToString()).ToString();
+
+                    if (familia == codFamilia)
+                    {
+                        comboBox2.Text = comboBox2.Items[j].ToString();
+                        bEncontrado = true;
+                    }
+                    else
+                    {
+                        j++;
+                    }
+
+                    if (j == comboBox2.Items.Count - 2) // - 2 porque hay una fila en blanco no se por qué
+                    {
+                        bCorte = true;
+                    }
+
+                }
+
             }
-
-
 
         }
 

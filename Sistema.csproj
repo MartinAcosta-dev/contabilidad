@@ -134,6 +134,12 @@
     <Compile Include="Menu\ListadoAsientosCargados.Designer.cs">
       <DependentUpon>ListadoAsientosCargados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMCondicionesComerciales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMCondicionesComerciales.Designer.cs">
+      <DependentUpon>ABMCondicionesComerciales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu\MenuFacturacion\ABMProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -318,6 +324,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\ListadoAsientosCargados.resx">
       <DependentUpon>ListadoAsientosCargados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFacturacion\ABMCondicionesComerciales.resx">
+      <DependentUpon>ABMCondicionesComerciales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\MenuFacturacion\ABMProductos.resx">
       <DependentUpon>ABMProductos.cs</DependentUpon>
