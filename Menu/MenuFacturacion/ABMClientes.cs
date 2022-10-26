@@ -450,5 +450,114 @@ namespace Sistema.Menu.MenuFacturacion
             }
 
         }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            String id = dataGridView1.SelectedCells[0].Value.ToString();
+            String razonSocial = dataGridView1.SelectedCells[1].Value.ToString();
+            String nombreFantasia = dataGridView1.SelectedCells[2].Value.ToString();
+            String vdomicilio = dataGridView1.SelectedCells[3].Value.ToString();
+            String telefono = dataGridView1.SelectedCells[4].Value.ToString();
+            String codLocalidad = dataGridView1.SelectedCells[5].Value.ToString();
+            String codResponsable = dataGridView1.SelectedCells[6].Value.ToString();
+            String codDocumento = dataGridView1.SelectedCells[7].Value.ToString();
+            String nroDocumento = dataGridView1.SelectedCells[8].Value.ToString();
+            String ingresosBrutos = dataGridView1.SelectedCells[9].Value.ToString();
+
+            Boolean bEncontrado = false;
+            Boolean bCorte = false;
+            String localidad;
+            String tipoResponsable;
+            String tipoDocumento;
+
+            if (id != "")
+            {
+                razon.Text = razonSocial;
+                nombre.Text = nombreFantasia;
+                domicilio.Text = vdomicilio;
+                tel.Text = telefono;
+
+                //COMBO 1
+                int i = 0;
+
+                while ((bEncontrado == false) && (bCorte == false))
+                {
+                    tipoResponsable = getCodigo(comboBox1.Items[i].ToString()).ToString();
+
+                    if (tipoResponsable == codResponsable)
+                    {
+                        comboBox1.Text = comboBox1.Items[i].ToString();
+                        bEncontrado = true;
+                    }
+                    else
+                    {
+                        i++;
+                    }
+
+                    if (i == comboBox1.Items.Count - 1) 
+                    {
+                        bCorte = true;
+                    }
+
+                }
+
+                //Combo 2
+                i = 0;
+
+                bEncontrado = false;
+                bCorte = false;
+
+                while ((bEncontrado == false) && (bCorte == false))
+                {
+                    localidad = getCodigo(comboBox2.Items[i].ToString()).ToString();
+
+                    if (localidad == codLocalidad)
+                    {
+                        comboBox2.Text = comboBox2.Items[i].ToString();
+                        bEncontrado = true;
+                    }
+                    else
+                    {
+                        i++;
+                    }
+
+                    if (i == comboBox2.Items.Count - 1) 
+                    {
+                        bCorte = true;
+                    }
+
+                }
+
+
+                //Combo 3
+                i = 0;
+
+                bEncontrado = false;
+                bCorte = false;
+
+                while ((bEncontrado == false) && (bCorte == false))
+                {
+                    tipoDocumento = getCodigo(comboBox3.Items[i].ToString()).ToString();
+
+                    if (tipoDocumento == codDocumento)
+                    {
+                        comboBox3.Text = comboBox3.Items[i].ToString();
+                        bEncontrado = true;
+                    }
+                    else
+                    {
+                        i++;
+                    }
+
+                    if (i == comboBox3.Items.Count - 1) // - 2 porque hay una fila en blanco no se por qué
+                    {
+                        bCorte = true;
+                    }
+
+                }
+
+            }
+        }
     }
 }
