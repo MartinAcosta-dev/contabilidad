@@ -107,16 +107,31 @@ namespace Sistema.Menu.MenuFacturacion
 
         public void llenarComboCodFamilias()
         {
-            comboBox1.Items.Add("4 - Hola");
+            SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
+            conexion.Open();
+            String query = "select * from familias";
+            SqlCommand command = new SqlCommand(query, conexion);
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                String item = "";
+
+                int id = Convert.ToInt32(reader["id"]);
+                String nombre = reader["nombre"].ToString();
+               
+
+                item = id.ToString() + " - " + nombre;
+
+                comboBox1.Items.Add(item);
+            }
+
+            conexion.Close();
         }
 
         public void llenarComboCodImpuestos()
         {
-            int id = 0;
-            String descripcion = "";
-            String porcentaje = "";
-            String item = "";
-
             SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
             conexion.Open();
             String query = "select * from tiposDeImpuesto";
@@ -126,11 +141,11 @@ namespace Sistema.Menu.MenuFacturacion
 
             while (reader.Read())
             {
-                item = "";
+                String item = "";
 
-                id = Convert.ToInt32(reader["id"]);
-                descripcion = reader["descripcion"].ToString();
-                porcentaje = reader["porcentaje"].ToString();
+                int id = Convert.ToInt32(reader["id"]);
+                String descripcion = reader["descripcion"].ToString();
+                String porcentaje = reader["porcentaje"].ToString();
 
                 item = id.ToString()+" - "+descripcion+" ("+porcentaje+")";
 
@@ -360,13 +375,17 @@ namespace Sistema.Menu.MenuFacturacion
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+            String sId = "";
 
-            MessageBox.Show(id.ToString());
-
-            if (id.ToString() != "")
+            if(dataGridView1.SelectedRows[0].Cells[0].Value != null)
             {
-               
+                sId = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            }
+
+            if (sId != "")
+            {
+                int id = Convert.ToInt32(sId);
+
                 String sNuevoNombre = textBox1.Text;
                 int nuevaCantidad;
                 float nuevoPrecioUnitario;

@@ -97,8 +97,6 @@ namespace Sistema.Menu.MenuFacturacion
                 dataGridView1.Rows[fila].Cells[0].Value = idProducto;
                
 
-                
-
             }
 
             ActualizarSubtotal();

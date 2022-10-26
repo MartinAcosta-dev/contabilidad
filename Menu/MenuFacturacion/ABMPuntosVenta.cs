@@ -152,7 +152,13 @@ namespace Sistema.Menu.MenuFacturacion
 
         private void button3_Click(object sender, EventArgs e)
         {
-            String sNumero = dataGridView1.SelectedCells[1].Value.ToString();
+            String sNumero = "";
+
+            if (dataGridView1.SelectedCells[1].Value != null)
+            {
+               sNumero = dataGridView1.SelectedCells[1].Value.ToString();
+            }
+            
             
             if (sNumero != "")
             {

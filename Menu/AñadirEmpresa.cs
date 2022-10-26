@@ -174,17 +174,12 @@ namespace Sistema
             command.ExecuteNonQuery();
 
             //Tabla Tipos de Impuesto
-            query = "create table productos(id int PRIMARY KEY identity (1,1), descripcion varchar(100), porcentaje varchar(10)); ";
+            query = "create table tiposDeImpuesto(id int PRIMARY KEY identity (1,1), descripcion varchar(100), porcentaje varchar(10)); ";
             command = new SqlCommand(query, conexion2);
             command.ExecuteNonQuery();
 
             //Tabla condiciones comerciales
             query = "create table condicionesComerciales( id int primary key identity(1,1), descripcion varchar(100));";
-            command = new SqlCommand(query, conexion2);
-            command.ExecuteNonQuery();
-
-            //Tabla productos
-            query = "create table productos( id int primary key identity(1,1), descripcion varchar(100));";
             command = new SqlCommand(query, conexion2);
             command.ExecuteNonQuery();
 
@@ -198,6 +193,95 @@ namespace Sistema
             command = new SqlCommand(query, conexion2);
             command.ExecuteNonQuery();
 
+            //Tabla Tipos de Responsable
+            query = "create table tiposResponsable(id int primary key identity(1,1), descripcion varchar(100))";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+            //Llenamos la tabla
+            query = "insert into tiposResponsable values ('Responsable Inscripto');insert into tiposResponsable values ('Responsable No Inscripto');" +
+                "insert into tiposResponsable values ('No Responsable');insert into tiposResponsable values ('Sujeto Exento');" +
+                "insert into tiposResponsable values ('Consumidor Final');insert into tiposResponsable values ('Responsable Monotributo');" +
+                "insert into tiposResponsable values ('Sujeto no Categorizado');insert into tiposResponsable values ('Proveedor del Exterior');" +
+                "insert into tiposResponsable values ('Cliente del Exterior');insert into tiposResponsable values ('IVA Liberado - Ley N 19.640');" +
+                "insert into tiposResponsable values ('IVA Responsable Inscripto - Agente de Percepcion');insert into tiposResponsable values ('Pequeño Contribuyente Eventual');" +
+                "insert into tiposResponsable values ('Monotributista Social');insert into tiposResponsable values('Pequeño Contribuyente Eventual Social');";               
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+           
+           
+
+            //Tabla de provincias
+            query = "create table provincias(id int PRIMARY KEY identity(1,1), nombre varchar(100));";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+            //Llenamos la tabla de provincias
+            query = "insert into provincias values('Buenos Aires'); insert into provincias values('Catamarca');insert into provincias values('Chaco'); insert into provincias values('Chubut'); insert into provincias values('Cordoba');"+
+            "insert into provincias values('Corrientes');"+
+            "insert into provincias values('Entre Rios');" +
+            "insert into provincias values('Formosa');" +
+            "insert into provincias values('Jujuy');" +
+            "insert into provincias values('La Pampa');" +
+            "insert into provincias values('La Rioja');" +
+            "insert into provincias values('Mendoza');insert into provincias values('Misiones');"+
+            "insert into provincias values('Neuquen');insert into provincias values('Rio Negro');"+
+            "insert into provincias values('Salta');insert into provincias values('San Juan');" +
+            "insert into provincias values('San Luis');insert into provincias values('Santa Cruz');"+
+            "insert into provincias values('Santa Fe');insert into provincias values('Santiago del Estero');"+
+            "insert into provincias values('Tierra del Fuego');insert into provincias values('Tucuman'); ";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+            //Tabla de tiposDocumento
+            query = "create table tiposDocumento(id varchar(100),descripcion varchar(100));";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+            //Llenamos la tabla de tiposDocumento
+            query = "insert into tiposDocumento values('0','CI Policía Federal');" +
+            "insert into tiposDocumento values('1','CI Buenos Aires');"+
+            " insert into tiposDocumento values('2','CI Catamarca');"+
+            " insert into tiposDocumento values('3','CI Córdoba');" +
+            "  insert into tiposDocumento values('4','CI Corrientes');" +
+            " insert into tiposDocumento values('5','CI Entre Ríos');" +
+            " insert into tiposDocumento values('6','CI Jujuy');" +
+            " insert into tiposDocumento values('7','CI Mendoza');" +
+            " insert into tiposDocumento values('8','CI La Rioja');" +
+            " insert into tiposDocumento values('9','CI Salta');" +
+            " insert into tiposDocumento values('10','CI San Juan');" +
+            " insert into tiposDocumento values('11','CI San Luis');" +
+            " insert into tiposDocumento values('12','CI Santa Fe');" +
+            " insert into tiposDocumento values('13','CI Santiago del Estero');" +
+            " insert into tiposDocumento values('14','CI Tucumán');" +
+            " insert into tiposDocumento values('16','CI Chaco');" +
+            " insert into tiposDocumento values('17','CI Chubut');" +
+            " insert into tiposDocumento values('18','CI Formosa');" +
+            " insert into tiposDocumento values('19','CI Misiones');" +
+            " insert into tiposDocumento values('20','CI Neuquén');" +
+            "insert into tiposDocumento values('21','CI La Pampa');" +
+            "insert into tiposDocumento values('22','CI Río Negro');" +
+            " insert into tiposDocumento values('23','CI Santa Cruz');" +
+            "insert into tiposDocumento values('24','CI Tierra del Fuego');" +
+            "insert into tiposDocumento values('80','CUIT');" +
+            "insert into tiposDocumento values('86','CUIL');" +
+            " insert into tiposDocumento values('87','CDI');" +
+            " insert into tiposDocumento values('89','LE');" +
+            "insert into tiposDocumento values('90','LC');" +
+            "insert into tiposDocumento values('91','CI extranjera');" +
+            "insert into tiposDocumento values('92','en trámite');" +
+            "insert into tiposDocumento values('93','Acta nacimiento');" +
+            "insert into tiposDocumento values('94','Pasaporte');" +
+            "insert into tiposDocumento values('95','CI Bs. As. RNP');" +
+            "insert into tiposDocumento values('96','DNI');" +
+            "insert into tiposDocumento values('99','Sin identificar/venta global diaria');" +
+            "insert into tiposDocumento values('30','Certificado de Migración');"+
+            "insert into tiposDocumento values('88','Usado por Anses para Padrón'); ";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+
+            //Tabla de localidades
+            query = "create table localidades(id int primary key identity(1,1),nombre varchar(100),codPostal int,codProvincia int);";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
 
             conexion2.Close();
         }

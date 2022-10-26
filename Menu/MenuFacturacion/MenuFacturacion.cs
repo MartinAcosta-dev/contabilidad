@@ -105,7 +105,20 @@ namespace Sistema.Menu.MenuFacturacion
 
         private void nuevaFamiliaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            ABMFamilias formFamilias = new ABMFamilias();
+            AbrirFormHijo(formFamilias);
+        }
 
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMClientes formClientes = new ABMClientes();
+            AbrirFormHijo(formClientes);
+        }
+
+        private void localidadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMLocalidades formLocalidades = new ABMLocalidades();
+            AbrirFormHijo(formLocalidades);
         }
     }
 }
