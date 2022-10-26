@@ -169,7 +169,7 @@ namespace Sistema.Menu.MenuFacturacion
         {
             SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
             conexion.Open();
-            String query = "update clientes set razonSocial = @Vrazon, nombreFantasia = @Vnombre, domicilio = @Vdomicilio, telefono = @Vtel, codLocalidad = @VClocalidad, codResponsable = @VCresponsable ,codDocumento = @VCDocumento ,nroDocumento = @VNDocumento,nroIngresosBrutos = @Vingresos,where id = @id";
+            String query = "update clientes set razonSocial = @Vrazon, nombreFantasia = @Vnombre, domicilio = @Vdomicilio, telefono = @Vtel, codLocalidad = @VClocalidad, codResponsable = @VCresponsable ,codDocumento = @VCDocumento ,nroDocumento = @VNDocumento,nroIngresosBrutos = @Vingresos where id = @id";
             SqlCommand command = new SqlCommand(query, conexion);
             command.Parameters.AddWithValue("@id", id);
             command.Parameters.AddWithValue("@Vrazon", Vrazon);
@@ -402,18 +402,16 @@ namespace Sistema.Menu.MenuFacturacion
             if (sId != "")
             {
                 int id = Convert.ToInt32(sId);
-
-                if (id.ToString() != "")
-                {
-                    if ((razon.Text == "RazonSocial") || (razon.Text == "") ||
+                
+                    if ((razon.Text == "Razon Social") || (razon.Text == "") ||
                     (nombre.Text == "Nombre") || (nombre.Text == "") ||
                     (domicilio.Text == "Domicilio") || (domicilio.Text == "") ||
                     (tel.Text == "Tel") || (tel.Text == "") ||
+                    (comboBox1.Text == "") ||
                     (comboBox2.Text == "") ||
-
                     (comboBox3.Text == "") ||
                     (NDocumento.Text == "Nro Documento") || (NDocumento.Text == "") ||
-                    (ingresos.Text == "IngresosBrutos") || (ingresos.Text == ""))
+                    (ingresos.Text == "Ingresos Brutos") || (ingresos.Text == ""))
                     {
                         MessageBox.Show("Complete todos los campos.");
                     }
@@ -435,17 +433,18 @@ namespace Sistema.Menu.MenuFacturacion
                         MessageBox.Show("Se ha modificado el cliente");
                         listarClientes();
 
-                        Vrazon = "";
-                        Vnombre = "";
-                        Vdomicilio = "";
-                        Vtel = "";
-                        VClocalidad = "";
+                        razon.Text = "";
+                        nombre.Text = "";
+                        domicilio.Text = "";
+                        tel.Text = "";
+                        comboBox1.Text = "";
+                    comboBox2.Text = "";
+                    comboBox3.Text = "";
 
-                        VCDocumento = "";
-                        VNDocumento = "";
-                        Vingresos = "";
+                        NDocumento.Text = "";
+                        ingresos.Text = "";
                     }
-                }
+                
 
             }
 
@@ -477,6 +476,8 @@ namespace Sistema.Menu.MenuFacturacion
                 nombre.Text = nombreFantasia;
                 domicilio.Text = vdomicilio;
                 tel.Text = telefono;
+                NDocumento.Text = nroDocumento;
+                ingresos.Text = ingresosBrutos;
 
                 //COMBO 1
                 int i = 0;
