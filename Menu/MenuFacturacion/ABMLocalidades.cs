@@ -119,5 +119,115 @@ namespace Sistema.Menu.MenuFacturacion
             listarLocalidades();
             LlenarComboProvincias();
         }
+
+        public void eliminarLocalidad(int id)
+        {
+            SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
+            conexion.Open();
+            String query = "delete from localidades where id = @id";
+            SqlCommand command = new SqlCommand(query, conexion);
+            command.Parameters.AddWithValue("@id", id);
+            command.ExecuteNonQuery();
+
+            conexion.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows[0].Cells[0].Value != null)
+            {
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+
+                var confirmResult = MessageBox.Show("¿Realmente desea eliminar este producto?", "Confirm", MessageBoxButtons.YesNo);
+
+                if (confirmResult == DialogResult.Yes)
+                {
+                    eliminarLocalidad(id);
+                    MessageBox.Show("Se ha eliminado la localidad con id: " + id.ToString());
+                    listarLocalidades();
+
+                }
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            String nombre = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+            String codPostal = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+            String codProvincia = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
+            textBox1.Text = nombre;
+            textBox2.Text = codPostal;
+
+            //Combo 2
+            int j = 0;
+
+            Boolean bEncontrado = false;
+            Boolean bCorte = false;
+            String provincia;
+            
+
+            while ((bEncontrado == false) && (bCorte == false))
+            {
+                provincia = getCodProvincia(comboBox1.Items[j].ToString()).ToString();
+
+                if (provincia == codProvincia)
+                {
+                    comboBox1.Text = comboBox1.Items[j].ToString();
+                    bEncontrado = true;
+                }
+                else
+                {
+                    j++;
+                }
+
+                if (j == comboBox1.Items.Count - 1) 
+                {
+                    bCorte = true;
+                }
+
+            }
+
+        }
+
+        public void ModificarLocalidad(int id, String nombre, int codPostal, int codProvincia)
+        {
+            SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
+            conexion.Open();
+            String query = "update localidades set nombre = @nombre, codPostal = @codPostal, codProvincia = @codProvincia where id = @id";
+            SqlCommand command = new SqlCommand(query, conexion);
+            command.Parameters.AddWithValue("@id", id);
+            command.Parameters.AddWithValue("@nombre", nombre);
+            command.Parameters.AddWithValue("@codPostal", codPostal);
+            command.Parameters.AddWithValue("@codProvincia", codProvincia);
+         
+
+            command.ExecuteNonQuery();
+
+            conexion.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows[0].Cells[0].Value != null)
+            {
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+
+                String nombreNuevo = textBox1.Text;
+                String sCodPostalNuevo = textBox2.Text;
+                int codPostalNuevo;
+                int.TryParse(sCodPostalNuevo, out codPostalNuevo);
+
+                String sCodProvinciaNuevo = getCodProvincia(comboBox1.Text).ToString();
+                int codProvinciaNuevo;
+                int.TryParse(sCodProvinciaNuevo, out codProvinciaNuevo);
+
+
+                ModificarLocalidad(id, nombreNuevo, codPostalNuevo, codProvinciaNuevo);
+                MessageBox.Show("Se ha modificado la localidad con id: " + id.ToString());
+                listarLocalidades();
+
+                
+            }
+        }
     }
 }

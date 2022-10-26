@@ -340,17 +340,21 @@ namespace Sistema.Menu.MenuFacturacion
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
-
-            var confirmResult = MessageBox.Show("¿Realmente desea eliminar este producto?", "Confirm", MessageBoxButtons.YesNo);
-
-            if (confirmResult == DialogResult.Yes)
+            if (dataGridView1.SelectedRows[0].Cells[0].Value != null)
             {
-                EliminarProducto(id);
-                MessageBox.Show("Se ha eliminado el producto con id: " + id.ToString());
-                listarProductos();
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+                
+                var confirmResult = MessageBox.Show("¿Realmente desea eliminar este producto?", "Confirm", MessageBoxButtons.YesNo);
 
+                if (confirmResult == DialogResult.Yes)
+                {
+                    EliminarProducto(id);
+                    MessageBox.Show("Se ha eliminado el producto con id: " + id.ToString());
+                    listarProductos();
+
+                }
             }
+       
         }
 
         public void ModificarProducto(int id, String nombre, int codFamilia, int cant, float precioUnitario, int codImpuesto, int cantImpuestosInternos)

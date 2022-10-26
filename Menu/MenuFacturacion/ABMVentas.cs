@@ -114,7 +114,22 @@ namespace Sistema.Menu.MenuFacturacion
 
         public void listarClientes()
         {
+            SqlConnection conexion = Global.getConexion2(Global.EmpresaLog);
+            conexion.Open();
+            String query = "select * from clientes";
+            SqlCommand command = new SqlCommand(query, conexion);
+            SqlDataReader reader = command.ExecuteReader();
 
+            while (reader.Read())
+            {
+                String id = reader["id"].ToString();
+                String razonSocial = reader["razonSocial"].ToString();
+
+                comboBox4.Items.Add(id + " - " + razonSocial);
+
+            }
+
+            conexion.Close();
         }
 
         public void listarCondicionesComerciales()
