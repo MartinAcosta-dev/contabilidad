@@ -184,9 +184,20 @@ namespace Sistema
             command.ExecuteNonQuery();
 
             //Tabla productos
-           // query = "create table condicionesComerciales( id int primary key identity(1,1), descripcion varchar(100));";
-            //command = new SqlCommand(query, conexion2);
-            //command.ExecuteNonQuery();
+            query = "create table productos( id int primary key identity(1,1), descripcion varchar(100));";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+            //Tabla Familias
+            query = "create table familias( id int primary key identity(1,1), nombre varchar(100));";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+            //Tabla Clientes
+            query = "create table clientes( id int primary key identity(1,1), razonSocial varchar(100), nombreFantasia varchar(100) , domicilio varchar(100), telefono varchar(100), codLocalidad varchar(100), codResponsable varchar(100), codDocumento varchar(100), nroDocumento varchar(100), nroIngresosBrutos varchar(100));";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
 
             conexion2.Close();
         }

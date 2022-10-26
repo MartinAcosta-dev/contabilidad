@@ -134,11 +134,23 @@
     <Compile Include="Menu\ListadoAsientosCargados.Designer.cs">
       <DependentUpon>ListadoAsientosCargados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMFamilias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMFamilias.Designer.cs">
+      <DependentUpon>ABMFamilias.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu\MenuFacturacion\ABMCondicionesComerciales.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu\MenuFacturacion\ABMCondicionesComerciales.Designer.cs">
       <DependentUpon>ABMCondicionesComerciales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFacturacion\ABMClientes.Designer.cs">
+      <DependentUpon>ABMClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu\MenuFacturacion\ABMProductos.cs">
       <SubType>Form</SubType>
@@ -325,8 +337,14 @@
     <EmbeddedResource Include="Menu\ListadoAsientosCargados.resx">
       <DependentUpon>ListadoAsientosCargados.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFacturacion\ABMFamilias.resx">
+      <DependentUpon>ABMFamilias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu\MenuFacturacion\ABMCondicionesComerciales.resx">
       <DependentUpon>ABMCondicionesComerciales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFacturacion\ABMClientes.resx">
+      <DependentUpon>ABMClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\MenuFacturacion\ABMProductos.resx">
       <DependentUpon>ABMProductos.cs</DependentUpon>

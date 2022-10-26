@@ -16,7 +16,9 @@ elegir categoria
 asignar legajo y categoria a historia
 
 
+Familias (ID , nombre)
 
+Clientes(ID, razonSocial, nombreFantasía, domicilio, teléfono, codLocalidad, codResponsable, codDocumento, nroDocumento, nroIngresosBrutos)
 
 
 tp 5=======================================

@@ -90,13 +90,14 @@
             // nuevaFamiliaToolStripMenuItem
             // 
             this.nuevaFamiliaToolStripMenuItem.Name = "nuevaFamiliaToolStripMenuItem";
-            this.nuevaFamiliaToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.nuevaFamiliaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nuevaFamiliaToolStripMenuItem.Text = "Nueva Familia...";
+            this.nuevaFamiliaToolStripMenuItem.Click += new System.EventHandler(this.nuevaFamiliaToolStripMenuItem_Click);
             // 
             // nuevoProductoToolStripMenuItem
             // 
             this.nuevoProductoToolStripMenuItem.Name = "nuevoProductoToolStripMenuItem";
-            this.nuevoProductoToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.nuevoProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nuevoProductoToolStripMenuItem.Text = "Nuevo Producto...";
             this.nuevoProductoToolStripMenuItem.Click += new System.EventHandler(this.nuevoProductoToolStripMenuItem_Click);
             // 
