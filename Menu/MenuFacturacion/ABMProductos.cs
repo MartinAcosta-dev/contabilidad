@@ -288,7 +288,7 @@ namespace Sistema.Menu.MenuFacturacion
                         i++;
                     }
 
-                    if (i == comboBox1.Items.Count - 2) // - 2 porque hay una fila en blanco no se por qué
+                    if (i == comboBox1.Items.Count - 1)
                     {
                         bCorte = true;
                     }
@@ -315,7 +315,7 @@ namespace Sistema.Menu.MenuFacturacion
                         j++;
                     }
 
-                    if (j == comboBox2.Items.Count - 2) // - 2 porque hay una fila en blanco no se por qué
+                    if (j == comboBox2.Items.Count - 1) 
                     {
                         bCorte = true;
                     }

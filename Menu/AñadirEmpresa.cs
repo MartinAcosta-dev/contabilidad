@@ -277,9 +277,135 @@ namespace Sistema
             command = new SqlCommand(query, conexion2);
             command.ExecuteNonQuery();
 
+            //TABLA DE TIPOS DE COMRPOBANTE
+            query = "create table tiposComprobante ( id int PRIMARY KEY identity(1,1),descripcion varchar(100));";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+            //Llenamos la tabla de tiposComprobante
+            query = "insert into tiposComprobante values( 'FACTURAS A');" +
+            "insert into tiposComprobante values( 'NOTAS DE DEBITO A');" +
+            "insert into tiposComprobante values( 'NOTAS DE CREDITO A');" +
+            "insert into tiposComprobante values( 'RECIBOS A');" +
+            "insert into tiposComprobante values( 'NOTAS DE VENTA AL CONTADO A');" +
+"insert into tiposComprobante values( 'FACTURAS B');" +
+"insert into tiposComprobante values( 'NOTAS DE DEBITO B');" +
+"insert into tiposComprobante values( 'NOTAS DE CREDITO B');" +
+"insert into tiposComprobante values( 'RECIBOS B');" +
+"insert into tiposComprobante values( 'NOTAS DE VENTA AL CONTADO B');" +
+"insert into tiposComprobante values( 'FACTURAS C');" +
+"insert into tiposComprobante values( 'NOTAS DE DEBITO C');" +
+"insert into tiposComprobante values( 'NOTAS DE CREDITO C');" +
+"insert into tiposComprobante values( 'RECIBOS C');" +
+"insert into tiposComprobante values( 'NOTAS DE VENTA AL CONTADO C');" +
+"insert into tiposComprobante values( 'LIQUIDACION DE SERVICIOS PUBLICOS CLASE A');" +
+"insert into tiposComprobante values( 'LIQUIDACION DE SERVICIOS PUBLICOS CLASE B');" +
+"insert into tiposComprobante values( 'FACTURAS DE EXPORTACION');" +
+"insert into tiposComprobante values( 'NOTAS DE DEBITO POR OPERACIONES CON EL EXTERIOR');" +
+"insert into tiposComprobante values( 'NOTAS DE CREDITO POR OPERACIONES CON EL EXTERIOR');" +
+"insert into tiposComprobante values( 'FACTURAS - PERMISO EXPORTACION SIMPLIFICADO - DTO. 855/97');" +
+"insert into tiposComprobante values( 'COMPROBANTES “A” DE COMPRA PRIMARIA PARA EL SECTOR PESQUERO MARITIMO');" +
+"insert into tiposComprobante values( 'COMPROBANTES “A” DE CONSIGNACION PRIMARIA PARA EL SECTOR PESQUERO MARITIMO');" +
+"insert into tiposComprobante values( 'COMPROBANTES “B” DE COMPRA PRIMARIA PARA EL SECTOR PESQUERO MARITIMO');" +
+"insert into tiposComprobante values( 'COMPROBANTES “B” DE CONSIGNACION PRIMARIA PARA EL SECTOR PESQUERO MARITIMO');" +
+"insert into tiposComprobante values( 'LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE A');" +
+"insert into tiposComprobante values( 'LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE B');" +
+"insert into tiposComprobante values( 'LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE C');" +
+"insert into tiposComprobante values( 'COMPROBANTES DE COMPRA DE BIENES USADOS');" +
+"insert into tiposComprobante values( 'MANDATO - CONSIGNACION');" +
+"insert into tiposComprobante values( 'COMPROBANTES PARA RECICLAR MATERIALES');" +
+"insert into tiposComprobante values( 'LIQUIDACION PRIMARIA DE GRANOS');" +
+"insert into tiposComprobante values( 'COMPROBANTES A DEL APARTADO A  INCISO F)  R.G. N°  1415');" +
+"insert into tiposComprobante values( 'COMPROBANTES B DEL ANEXO I, APARTADO A, INC. F), R.G. N° 1415');" +
+"insert into tiposComprobante values( 'COMPROBANTES C DEL Anexo I, Apartado A, INC.F), R.G. N° 1415');" +
+"insert into tiposComprobante values( 'NOTAS DE DEBITO O DOCUMENTO EQUIVALENTE QUE CUMPLAN CON LA R.G. N° 1415');" +
+"insert into tiposComprobante values( 'NOTAS DE CREDITO O DOCUMENTO EQUIVALENTE QUE CUMPLAN CON LA R.G. N° 1415');" +
+"insert into tiposComprobante values( 'OTROS COMPROBANTES A QUE CUMPLEN CON LA R G  1415');" +
+"insert into tiposComprobante values( 'OTROS COMPROBANTES B QUE CUMPLAN CON LA R.G. N° 1415');" +
+"insert into tiposComprobante values( 'OTROS COMPROBANTES C QUE CUMPLAN CON LA R.G. N° 1415');" +
+"insert into tiposComprobante values( 'NOTA DE CREDITO LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE B');" +
+"insert into tiposComprobante values( 'NOTA DE CREDITO LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE C');" +
+"insert into tiposComprobante values( 'NOTA DE DEBITO LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE A');" +
+"insert into tiposComprobante values( 'NOTA DE DEBITO LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE B');" +
+"insert into tiposComprobante values( 'NOTA DE DEBITO LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE C');" +
+"insert into tiposComprobante values( 'NOTA DE CREDITO LIQUIDACION UNICA COMERCIAL IMPOSITIVA CLASE A');" +
+"insert into tiposComprobante values( 'COMPROBANTES DE COMPRA DE BIENES NO REGISTRABLES A CONSUMIDORES FINALES');" +
+"insert into tiposComprobante values( 'RECIBO FACTURA A  REGIMEN DE FACTURA DE CREDITO ');" +
+"insert into tiposComprobante values( 'FACTURAS M');" +
+"insert into tiposComprobante values( 'NOTAS DE DEBITO M');" +
+"insert into tiposComprobante values( 'NOTAS DE CREDITO M');" +
+"insert into tiposComprobante values( 'RECIBOS M');" +
+"insert into tiposComprobante values( 'NOTAS DE VENTA AL CONTADO M');" +
+"insert into tiposComprobante values( 'COMPROBANTES M DEL ANEXO I  APARTADO A  INC F) R.G. N° 1415');" +
+"insert into tiposComprobante values( 'OTROS COMPROBANTES M QUE CUMPLAN CON LA R.G. N° 1415');" +
+"insert into tiposComprobante values( 'CUENTAS DE VENTA Y LIQUIDO PRODUCTO M');" +
+"insert into tiposComprobante values( 'LIQUIDACIONES M');" +
+"insert into tiposComprobante values( 'CUENTAS DE VENTA Y LIQUIDO PRODUCTO A');" +
+"insert into tiposComprobante values( 'CUENTAS DE VENTA Y LIQUIDO PRODUCTO B');" +
+"insert into tiposComprobante values( 'LIQUIDACIONES A');" +
+"insert into tiposComprobante values( 'LIQUIDACIONES B');" +
+"insert into tiposComprobante values( 'DESPACHO DE IMPORTACION');" +
+"insert into tiposComprobante values( 'LIQUIDACION C');" +
+"insert into tiposComprobante values( 'RECIBOS FACTURA DE CREDITO');" +
+"insert into tiposComprobante values( 'INFORME DIARIO DE CIERRE (ZETA) - CONTROLADORES FISCALES');" +
+"insert into tiposComprobante values( 'TIQUE FACTURA A   ');" +
+"insert into tiposComprobante values( 'TIQUE FACTURA B');" +
+"insert into tiposComprobante values( 'TIQUE');" +
+"insert into tiposComprobante values( 'REMITO ELECTRONICO');" +
+"insert into tiposComprobante values( 'RESUMEN DE DATOS');" +
+"insert into tiposComprobante values( 'OTROS COMPROBANTES - DOCUMENTOS EXCEPTUADOS - NOTAS DE CREDITO');" +
+"insert into tiposComprobante values( 'REMITOS R');" +
+"insert into tiposComprobante values( 'OTROS COMPROBANTES QUE NO CUMPLEN O ESTÁN EXCEPTUADOS DE LA R.G. 1415 Y SUS MODIF ');" +
+"insert into tiposComprobante values( 'TIQUE NOTA DE CREDITO ');" +
+"insert into tiposComprobante values( 'TIQUE FACTURA C');" +
+"insert into tiposComprobante values( ' TIQUE NOTA DE CREDITO A');" +
+"insert into tiposComprobante values( 'TIQUE NOTA DE CREDITO B');" +
+"insert into tiposComprobante values( 'TIQUE NOTA DE CREDITO C');" +
+"insert into tiposComprobante values( 'TIQUE NOTA DE DEBITO A');" +
+"insert into tiposComprobante values( 'TIQUE NOTA DE DEBITO B');" +
+"insert into tiposComprobante values( 'TIQUE NOTA DE DEBITO C');" +
+"insert into tiposComprobante values( 'TIQUE FACTURA M');" +
+"insert into tiposComprobante values( 'TIQUE NOTA DE CREDITO M');" +
+"insert into tiposComprobante values( 'TIQUE NOTA DE DEBITO M');" +
+"insert into tiposComprobante values( 'FACTURA DE CRÉDITO ELECTRÓNICA MiPyMEs (FCE) A');" +
+"insert into tiposComprobante values( 'NOTA DE DEBITO ELECTRÓNICA MiPyMEs (FCE) A');" +
+"insert into tiposComprobante values( 'NOTA DE CREDITO ELECTRÓNICA MiPyMEs (FCE) A');" +
+"insert into tiposComprobante values( 'FACTURA DE CRÉDITO ELECTRÓNICA MiPyMEs (FCE) B');" +
+"insert into tiposComprobante values( 'NOTA DE DEBITO ELECTRÓNICA MiPyMEs (FCE) B');" +
+            "insert into tiposComprobante values( 'NOTA DE CREDITO ELECTRÓNICA MiPyMEs (FCE) B');" +
+            "insert into tiposComprobante values( 'FACTURA DE CRÉDITO ELECTRÓNICA MiPyMEs (FCE) C');" +
+            "insert into tiposComprobante values( 'NOTA DE DEBITO ELECTRÓNICA MiPyMEs (FCE) C');" +
+            "insert into tiposComprobante values( 'NOTA DE CREDITO ELECTRÓNICA MiPyMEs (FCE) C');" +
+            "insert into tiposComprobante values( 'LIQUIDACION SECUNDARIA DE GRANOS');" +
+            "insert into tiposComprobante values( 'CERTIFICACION ELECTRONICA (GRANOS)');" +
+            "insert into tiposComprobante values( 'REMITO ELECTRÓNICO CÁRNICO ');";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+            //Tabla de UltimoComprobanteEmitido
+            query = "create table ultimoComprobanteEmitido(puntoDeVenta int,fecha varchar(20),tipoComprobante int);";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+            //Tabla de ventas
+            query = "create table ventas (id int PRIMARY KEY identity(1,1),fecha varchar(20),puntoDeVenta int,numComprobante int,codComprobante int,codCliente int,codCondicion int,subtotal float,iva float,total float);";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+            //Tabla de remitos
+            query = "create table remitos(id int primary key identity(1,1),nroVenta int,codProducto int,precioUnitario float,cantidad int,porcIVA varchar(10));";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
 
             //Tabla de localidades
             query = "create table localidades(id int primary key identity(1,1),nombre varchar(100),codPostal int,codProvincia int);";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+
+            //Tabla de ultimoNroComprobanteEmitido
+            query = "create table ultimoNroComprobanteEmitido ( nroComprobante int);";
+            command = new SqlCommand(query, conexion2);
+            command.ExecuteNonQuery();
+            query = "insert into ultimoNroComprobanteEmitido values (0)";
             command = new SqlCommand(query, conexion2);
             command.ExecuteNonQuery();
 
